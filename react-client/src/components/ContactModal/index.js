@@ -93,8 +93,7 @@ class ContactModal extends Component {
 											(err, response) => {
 												console.log('response', response);
 												this.services.getContacts((err, response) => {
-													console.log(JSON.parse(response.data));
-													this.props.addContacts(JSON.parse(response.data));
+													this.props.addContacts(JSON.parse(response));
 													window.$('#exampleModal').modal('hide');
 												})
 											}
