@@ -1,0 +1,143 @@
+body {
+  font-family: roboto !important;
+  background: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.search-box {
+  width: 340px !important;
+}
+
+.nav-options {
+  margin-top: 30px;
+}
+
+.nav-options-wrapper {
+  background-color: #f2f2f2!important;
+}
+
+.contacts-table {
+  margin-top: 5px;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.search-label {
+  font-weight: 500;
+}
+
+.create-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 90px;;
+}
+
+.create-btn-label {
+  position: fixed;
+  bottom: 70px;
+  right: 155px;
+  font-weight: bold;
+
+}
+
+.nav-custom-theme {
+  background: #4b148c!important;
+}
+
+.active-label {
+  color: white !important;
+}
+
+.active-label:hover{
+  color:  rgb(196, 196, 196) !important;
+}
+
+.active-blue-label {
+  color: #0278e8 !important;
+}
+
+.active-purple-label {
+  color: #4b148c !important;
+}
+
+.active-purple-label:hover {
+  color: #290c49 !important;
+}
+
+
+.btn-primary {
+  background-color: #0278e8 !important;
+  border-color: #0278e8!important;
+}
+
+.btn-primary:hover {
+  background-color: #005eb7 !important;
+  border-color: #005eb7!important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .user-menu {
+      right: 106px;
+      position: absolute;
+    }
+
+    .menu {
+      margin-left: 167px;
+    }
+    
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .user-menu {
+      right: 106px;
+      position: absolute;
+    }
+
+    .menu {
+      margin-left: 167px;
+    }
+}
