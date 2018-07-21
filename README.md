@@ -8,6 +8,10 @@
 ### Backend Structure
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/backend_structure.png)
 
+1: Lambdas: lambdas deployed on aws
+2: library: local libraries
+2.1: data-model: crud
+
 ## Lambda Functions
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/lambda.png)
 
