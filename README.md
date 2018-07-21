@@ -63,4 +63,7 @@ Definitions
 ### FrontEnd hosted on s3
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/s3.png)
 
+## Demo
+![Alt Text](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/example.gif)
+
 ## Server Url: http://phonebook-challenge.s3-website-us-east-1.amazonaws.com/#
