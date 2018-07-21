@@ -12,7 +12,7 @@
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/lambda.png)
 
 ## API GATEWAY
-![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/api_gateway.png)
+![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/api_gateway2.png)
 
 ## FrontEnd Structure
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/frontend_structure.png)
