@@ -1,8 +1,6 @@
 # phonebook-challenge
 
-## Getting Started
-
-### Architecture
+### ARCHITECTURE
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/architecture.png)
 
 ### Backend Structure
@@ -20,8 +18,9 @@ Dependencies
     "node-uuid": "^1.4.8"
   }
 ```
+Definitions
 
-* 1: Lambdas: lambdas deployed on aws
+* 1: lambdas: lambdas deployed on aws
 * 2: library: local libraries
 * 2.1: data-model: crud
 
@@ -33,6 +32,33 @@ Dependencies
 
 ### FrontEnd Structure
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/frontend_structure.png)
+
+Dependencies
+
+```
+{
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-moment": "^0.7.9",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^3.7.2"
+  }
+```
+Definitions
+
+* 1: actions: redux actions
+* 2: reducers: redux reducers
+* 3: services: service library
+* 4: components: app components
+* 4.1 ContactList
+* 4.2 ContactModal
+* 4.3 ContactView
+* 4.4 TopBar
 
 ### FrontEnd hosted on s3
 ![ScreenShot](https://github.com/jhoncbuendia/phonebook-challenge/blob/master/img/s3.png)
